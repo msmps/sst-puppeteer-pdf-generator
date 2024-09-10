@@ -1,0 +1,20 @@
+{
+  "name": "sst-puppeteer-pdf-generator",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.645.0",
+    "@aws-sdk/s3-request-presigner": "^3.645.0",
+    "@sparticuz/chromium": "127.0.0",
+    "hono": "^4.5.11",
+    "puppeteer-core": "23.1.1",
+    "sst": "3.0.132"
+  }
+}
